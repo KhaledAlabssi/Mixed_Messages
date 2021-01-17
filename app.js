@@ -163,7 +163,7 @@ const motivationalQuotes = [{
 
 function getQuote(o) {
     const result = Math.floor(Math.random() * o.length);
-    return `${o[result].quote} by ${o[result].author}`;
+    return `${o[result].quote} \nBy ${o[result].author}`;
 }
 
 console.log(getQuote(motivationalQuotes));
